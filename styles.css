@@ -20,7 +20,7 @@ body{
      color: hsl(228, 45%, 44%); 
 }
 
-.qrCode{
+section{
     background-color: white;
     width: 20rem; 
     height: fit-content;
@@ -34,18 +34,15 @@ body{
     transform: translate(-50%, -50%);
 }
 
-.qrCode img {
-    max-width: 90%;
-}
+
 
 p, span{
     text-align: center;
 }
 
-img{
-    margin: 1rem;
-    border-radius: .6rem;
-    max-width: 15rem;
+figure > img{
+   border-radius: .6rem;
+   max-width: 18rem;
 }
 
 p{
