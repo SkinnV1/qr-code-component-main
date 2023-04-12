@@ -22,7 +22,7 @@ body{
 
 .qrCode{
     background-color: white;
-    width: 15rem; 
+    width: 20rem; 
     height: fit-content;
     border-radius: 1rem; 
     display: flex; 
@@ -34,13 +34,18 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.qrCode img {
+    max-width: 90%;
+}
+
 p, span{
     text-align: center;
 }
 
 img{
-    margin-top: 5%;
-    border-radius: .6rem; 
+    margin: 1rem;
+    border-radius: .6rem;
+    max-width: 15rem;
 }
 
 p{
